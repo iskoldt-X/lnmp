@@ -9,6 +9,8 @@ PHP 8.0 from lnmp.org v1.8
 
 # How to use this image immediately
 
+I am buiding the image. I will upload it onto Docker Hub.
+
 Remember to change the MySQL root's password.
 
 Default MySQL root password:
