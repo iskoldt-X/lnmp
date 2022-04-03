@@ -207,24 +207,30 @@ LAMP_Stack()
 case "${Stack}" in
     lnmp)
         Dispaly_Selection
-        LNMP_Stack 2>&1 | tee /root/lnmp-install.log
+        LNMP_Stack
+        exit 0
         ;;
     lnmpa)
         Dispaly_Selection
-        LNMPA_Stack 2>&1 | tee /root/lnmp-install.log
+        LNMPA_Stack
+        exit 0
         ;;
     lamp)
         Dispaly_Selection
-        LAMP_Stack 2>&1 | tee /root/lnmp-install.log
+        LAMP_Stack
+        exit 0
         ;;
     nginx)
-        Install_Only_Nginx 2>&1 | tee /root/nginx-install.log
+        Install_Only_Nginx
+        exit 0
         ;;
     db)
         Install_Only_Database
+        exit 0
         ;;
     mphp)
         Install_Multiplephp
+        exit 0
         ;;
     *)
         Echo_Red "Usage: $0 {lnmp|lnmpa|lamp}"
