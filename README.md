@@ -6,9 +6,14 @@ Make your own lnmp Docker image from lnmp.org
 
 I have buildt an image for quick deployment. Use the following commands to run a Docker container:
 
-'''
-docker run
-'''
+```
+docker run -d \
+  --name lnmp \
+  --restart unless-stopped \
+  -p 80:80 \
+  -p 443:443 \
+  iskoldt/lnmp:1.8
+```
 
 This Docker image is based on:
 
@@ -26,11 +31,16 @@ lnmp.org
 
 # How to build your own image
 
+```
 git clone https://github.com/iskoldt-X/lnmp.git
 cd lnmp
 vim Dockerfile
-
+```
 Just modify the part of lnmp installation commond
+
+```
+docker build -t lnmp:TAG .
+```
 
 you can find help on this site:
 https://lnmp.org/auto.html
