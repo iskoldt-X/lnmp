@@ -23,11 +23,7 @@ docker run -d \
 
 This Docker image is based on:
 
-`ubuntu:20.04`
-
-`MySQL 5.5`
-
-`PHP 8.0`
+`ubuntu:20.04` `MySQL 5.5` `PHP 8.0`
 
 Remember to change the MySQL root's password.
 
