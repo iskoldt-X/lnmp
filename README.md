@@ -1,5 +1,11 @@
-# lnmp.org Docker
-Make your own lnmp Docker image from lnmp.org 
+# lnmp Docker
+[![GitHub Stars](https://img.shields.io/github/stars/iskoldt-X/lnmp.svg?style=flat-square&label=Stars&logo=github)](https://github.com/iskoldt-X/lnmp/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/iskoldt-X/lnmp.svg?style=flat-square&label=Forks&logo=github)](https://github.com/iskoldt-X/lnmp/fork)
+[![Docker Stars](https://img.shields.io/docker/stars/iskoldt/lnmp.svg?style=flat-square&label=Stars&logo=docker)](https://hub.docker.com/r/iskoldt/lnmp)
+[![Docker Pulls](https://img.shields.io/docker/pulls/iskoldt/lnmp.svg?style=flat-square&label=Pulls&logo=docker&color=orange)](https://hub.docker.com/r/iskoldt/lnmp)
+
+
+Make your own lnmp Docker image from lnmp.org. 
 
 
 # How to use this image immediately
@@ -17,17 +23,17 @@ docker run -d \
 
 This Docker image is based on:
 
-ubuntu:20.04
+`ubuntu:20.04`
 
-MySQL 5.5 from lnmp.org v1.8
+`MySQL 5.5`
 
-PHP 8.0 from lnmp.org v1.8
+`PHP 8.0`
 
 Remember to change the MySQL root's password.
 
 Default MySQL root password:
 
-lnmp.org
+`lnmp.org`
 
 # How to build your own image
 
