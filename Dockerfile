@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
-MAINTAINER iskoldt adamthemate@live.com
+MAINTAINER iskoldt
 WORKDIR /root/lnmp1.8
 COPY lnmp1.8 .
 RUN apt update \
